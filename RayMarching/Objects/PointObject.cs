@@ -4,7 +4,7 @@
     {
         public IMaterial Material { get; set; } = SolidMaterial.Empty;
         public Vector3 Center { get; set; }
-        public double GetDistanceSquaredTo(Vector3 source)
+        public double GetDistanceTo(Vector3 source)
         {
             return Vector3.DistanceSquaredBetween(source, this.Center);
         }

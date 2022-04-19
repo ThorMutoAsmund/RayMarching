@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RayMarching"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Ray Marching" Height="450" Width="800">
     <Grid Name="MainGrid" Background="Blue">
         <Image Name="MainImage"></Image>
     </Grid>

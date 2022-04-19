@@ -6,9 +6,9 @@
         public Vector3 Center { get; set; }
         public double Radius { get; set; }
 
-        public double GetDistanceSquaredTo(Vector3 point)
+        public double GetDistanceTo(Vector3 point)
         {
-            return Vector3.DistanceSquaredBetween(point, this.Center) - this.Radius * this.Radius;
+            return Vector3.DistanceBetween(point, this.Center) - this.Radius;
         }
 
         public SphereObject(Vector3 center, double radius, IMaterial? material = null)
